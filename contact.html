@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contacto</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/costum.css">
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  
+    <!-- Bootstrap JavaScript Libraries -->
+    <script defer src="js/bootstrap.bundle.js"></script>
+
+    <!-- JavaScript -->
+    <script defer src="js/validar.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/negro.png" alt="" width="105" height="40" class="d-inline-block align-text-top"></a>            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">EVENTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery2.html">FÚTBOL</a>
+              </li>
+              <li class="nav-item">
+                <div class="d-flex align-items-center flex-column flex-md-row"> 
+                  <a class="nav-link" href="gallery3.html">RETRATO</a>
+                  <!-- Badge -->
+                  <span class="badge text-bg-secondary">Nuevo</span>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="us.html">SOBRE MÍ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  </header>
+  
+  <main>
+
+    <div class="container p-5">
+      <h1 class="display-3 text-center">Contacto</h4>
+        <div class="col-md-7 col-lg-8">
+            <form class="needs-validation" novalidate>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                    Se necesita un nombre válido.
+                </div>
+                </div>
+
+                <div class="col-12">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" placeholder="tu@ejemplo.com">
+                <div class="invalid-feedback">
+                    Por favor, introduce un email válido.
+                </div>
+                </div>
+            
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        Este campo no puede quedar vacío.
+                    </div>
+                  </div>
+
+                
+            </div>
+            </form>
+        </div>
+
+        <!-- Botón modal -->
+        <div class="col-sm-6 col-lg-3 py-4">
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Continuar
+          </button>
+        </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Información</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>¿Estás seguro de que quieres continuar?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-dark">Continuar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="mx-3">
+
+  <!-- Footer -->
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-muted">&copy; Marta Borreguero Soria</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Portfolio</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="gallery.html">Eventos</a></li>
+          <li><a class="link-secondary text-decoration-none" href="gallery3.html">Retrato</a></li>
+          <li><a class="link-secondary text-decoration-none" href="gallery2.html">Fútbol</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Información</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="us.html">Sobre mí</a></li>
+          <li><a class="link-secondary text-decoration-none" href="contact.html">Contacto</a></li>
+          <li><a class="link-secondary text-decoration-none" href="servicios.html">Servicios</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Redes sociales</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" target="_blank" href="https://www.instagram.com/martaboso98/?hl=es">Instagram</a></li>
+          <li><a class="link-secondary text-decoration-none" target="_blank" href="https://twitter.com/martaboso98?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+          <li><a class="link-secondary text-decoration-none" target="_blank" href="https://www.facebook.com/martaboso98/?locale=es_ES">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>  
+</body>
+
+</html>
